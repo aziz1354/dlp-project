@@ -1,0 +1,17 @@
+{
+  "timestamp": 1747054207.509951,
+  "source_file": "/root/dlp_project/processed_features/packet_1747054207.5207012.json",
+  "source_ips": [
+    "192.168.1.100"
+  ],
+  "destination_ips": [
+    "8.8.8.8"
+  ],
+  "total_packets": 50,
+  "dns_queries": 50,
+  "dns_tunneling_indicators": 50,
+  "anomaly_reasons": [
+    "CRITICAL: Potential DNS Tunneling - 50 suspicious domains",
+    "WARNING: High DNS Query Count: 50"
+  ]
+}

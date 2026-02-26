@@ -1,0 +1,12 @@
+{
+  "timestamp": 1747419152.0989273,
+  "source_file": "/root/dlp_project/processed_features/packet_1747419152.1421776.json",
+  "source_ips": [],
+  "destination_ips": [],
+  "total_packets": 1169,
+  "dns_queries": 0,
+  "dns_tunneling_indicators": 0,
+  "anomaly_reasons": [
+    "CRITICAL: Excessive Packet Volume: 1169"
+  ]
+}

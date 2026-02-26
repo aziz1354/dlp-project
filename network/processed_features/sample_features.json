@@ -1,0 +1,16 @@
+{
+  "timestamp": 1772102665.356827,
+  "total_packets": 1,
+  "protocol_dist": {
+    "TCP": 0,
+    "UDP": 1,
+    "ICMP": 0
+  },
+  "source_ips": [],
+  "destination_ips": [],
+  "dns_queries": 1,
+  "dns_tunneling_indicators": 1,
+  "suspicious_domains": [
+    "_nmea-0183._tcp.local."
+  ]
+}

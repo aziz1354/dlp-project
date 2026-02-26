@@ -1,0 +1,8 @@
+*.key
+*.p12
+mitmproxy-ca.pem
+mitmproxy-dhparam.pem
+__pycache__/
+*.pyc
+*.log
+.env
