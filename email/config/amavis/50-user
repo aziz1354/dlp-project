@@ -1,0 +1,18 @@
+use strict;
+
+#
+# Place your configuration directives here.  They will override those in
+# earlier files.
+# Add a custom hook for YARA scanning
+@av_scanners = (
+    # Primary Scanner: Custom YARA Scanner
+    ['Custom YARA Scanner', '/usr/local/bin/yara_scan.sh', '--scan={}'],
+
+    # Secondary Scanner: ClamAV-clamd
+    ['ClamAV-clamd', \&ask_daemon, ["CONTSCAN {}\n", "/var/run/clamav/clamd.ctl"], qr/\bOK$/, qr/\bFOUND$/],
+);
+# See /usr/share/doc/amavisd-new/ for documentation and examples of
+
+#------------ Do not modify anything below this line -------------
+1;  # ensure a defined return
+
